@@ -1,5 +1,5 @@
 class WelcomeController < ApplicationController
   def index
-    render :text => `jruby -v`
+    render :text => 'jruby'
   end
 end
